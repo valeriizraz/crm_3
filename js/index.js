@@ -8,11 +8,17 @@ const phoneAppleXPrice = 999;
 
 console.log(typeof phoneAppleXQuantity);
 console.log(typeof phoneAppleXPrice);
-
-const nameProduct = prompt('Натменование товара');
-const quantityProduct = prompt('Количество товара');
-const priceProduct = prompt('Цена товара');
-
 console.log(`На складе осталось (${phoneAppleXQuantity}) единиц товара (${phoneAppleX}) на сумму (${phoneAppleXQuantity * phoneAppleXPrice}) $`)
+
+{
+  const tvLg = "TV LG";
+  let tvLgQuantity = 8;
+    tvLgQuantity = prompt('Ведите нужное количество', '')
+  const tvS = 'Телевизоры';
+  const tvPrice = 178;
+
+  console.log(`на складе осталось (${tvLgQuantity}) единиц товара (${tvLg}) на сумму (${tvPrice * tvLgQuantity})`)
+}
+
 
 
