@@ -9,7 +9,7 @@ const phoneAppleXPrice = 999;
 
 console.log(typeof phoneAppleXQuantity);
 console.log(typeof phoneAppleXPrice);
-console.log(`На складе осталось (${phoneAppleXQuantity}) единиц товара (${phoneAppleX}) на сумму (${phoneAppleXQuantity * phoneAppleXPrice}) $`)
+console.log(`На складе осталось (${phoneAppleXQuantity}) единиц товара (${phoneAppleX}) на сумму (${phoneAppleXQuantity * phoneAppleXPrice}) $`);
 }
 
 {
@@ -18,7 +18,7 @@ console.log(`На складе осталось (${phoneAppleXQuantity}) еди�
   const productCategory = prompt('Ведите категорию');
   const productPrice = prompt('Ведите цену');
 
-  console.log(`на складе осталось (${productQuantity}) единиц товара на сумму (${productPrice * productQuantity})`)
+  console.log(`на складе осталось (${productQuantity}) единиц товара на сумму (${productPrice * productQuantity})`);
 }
 
 
